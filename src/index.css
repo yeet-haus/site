@@ -39,18 +39,18 @@
 		@apply text-pink-300 text-center text-3xl lg:text-8xl leading-normal no-underline m-0 font-black tracking-[3px] uppercase yeeter-shadow-sm lg:yeeter-shadow;
 	}
 	.yeeter-description {
-		@apply text-[rgb(254,219,29)] text-center text-xl lg:text-5xl font-black uppercase no-underline leading-normal default-shadow;
+		@apply text-yeeter-yellow text-center text-xl lg:text-5xl font-black uppercase no-underline leading-normal default-shadow;
 	}
 	.yeeter-button {
-		@apply gap-2.5 p-10 w-fit shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] transition duration-300 rounded-full bg-[rgba(254,219,29,1)] hover:bg-[#FFED8D] active:bg-[#FCD500] text-black text-xl lg:text-5xl font-black text-center uppercase no-underline leading-none;
+		@apply gap-2.5 p-10 w-fit shadow-[10px_10px_0px_0px_black] transition duration-300 rounded-full bg-yeeter-yellow hover:bg-yeeter-hover-yellow active:bg-yeeter-active-yellow text-black text-xl lg:text-5xl font-black text-center uppercase no-underline leading-none;
 	}
 	.yeeter-section {
-		@apply flex flex-col items-start gap-10 p-12 shadow-[-10px_-10px_rgba(254,219,29,1),10px_10px_black] rounded-[100px] bg-[rgba(249,225,163,1)];
+		@apply flex flex-col items-start gap-10 p-12 shadow-[-10px_-10px_rgba(254,219,29,1),10px_10px_black] rounded-[100px] bg-yeeter-light-yellow;
 	}
 	.section-title {
-		@apply text-[rgb(240,152,198)] text-left text-3xl lg:text-[64px] self-stretch no-underline leading-none m-0 font-black uppercase yeeter-shadow-sm;
+		@apply text-yeeter-pink text-left text-3xl lg:text-[64px] self-stretch no-underline leading-none m-0 font-black uppercase yeeter-shadow-sm;
 	}
 	.yeeter-link {
-		@apply text-[rgba(240,152,198,1)] text-center text-3xl lg:text-[96px] self-stretch font-black no-underline leading-none transition duration-300 yeeter-shadow-sm xl:yeeter-shadow hover:text-[#FAB8DB] active:text-[#f17bb9];
+		@apply text-yeeter-pink text-center text-3xl lg:text-[96px] self-stretch font-black no-underline leading-none transition duration-300 yeeter-shadow-sm xl:yeeter-shadow hover:text-yeeter-hover-pink active:text-yeeter-active-pink;
 	}
 }
