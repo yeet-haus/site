@@ -51,7 +51,7 @@
     @apply flex flex-col items-start gap-10 p-12 shadow-[-10px_-10px_rgba(254,219,29,1),10px_10px_black] rounded-[100px] bg-yeeter-light-yellow;
   }
   .section-title {
-    @apply text-yeeter-pink text-left text-3xl lg:text-[64px] self-stretch no-underline leading-none m-0 font-black uppercase yeeter-shadow-sm;
+    @apply text-yeeter-pink text-center text-3xl lg:text-[64px] self-stretch no-underline leading-none m-0 font-black uppercase yeeter-shadow-sm;
   }
   .yeeter-link {
     @apply text-yeeter-pink text-center text-3xl lg:text-[96px] self-stretch font-black no-underline leading-none transition duration-300 yeeter-shadow-sm hover:text-yeeter-hover-pink active:text-yeeter-active-pink;

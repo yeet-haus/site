@@ -3,13 +3,6 @@ import { SectionProps } from './types/SectionProps';
 
 export const sections: SectionProps[] = [
   {
-    title: '',
-    subtitles: [
-      "Raise funds with your community by accepting tokens in exchange for loot. Provide your project's name, team, campaign duration, and fundraising goals. Contributors automatically get shares in a DAO.",
-    ],
-    contents: [],
-  },
-  {
     title: 'Launch Project',
     subtitles: [''],
     contents: [
