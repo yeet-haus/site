@@ -45,7 +45,7 @@
     @apply gap-2.5 p-10 w-fit shadow-[10px_10px_0px_0px_black] transition duration-300 rounded-full bg-yeeter-yellow hover:bg-yeeter-hover-yellow active:bg-yeeter-active-yellow text-black text-xl lg:text-5xl font-black text-center uppercase no-underline leading-none;
   }
   .button-container {
-    @apply flex gap-8 mb-8;
+    @apply flex gap-8 my-16;
   }
   .yeeter-section {
     @apply flex flex-col items-start gap-10 p-12 shadow-[-10px_-10px_rgba(254,219,29,1),10px_10px_black] rounded-[100px] bg-yeeter-light-yellow;
