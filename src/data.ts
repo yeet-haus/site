@@ -34,13 +34,11 @@ export const sections: SectionProps[] = [
 
 export const links: Link[] = [
   { title: 'FAQ', link: '/faq', isExternal: false },
-  { title: 'DOCS', link: 'http://yeet.haus/docs', isExternal: false },
+  { title: 'DOCS', link: 'http://docs.yeet.haus', isExternal: true },
   { title: 'DISCORD', link: 'https://discord.gg/rE33sawCMz', isExternal: true },
   {
-    title: 'YEETER DAO',
-    link: 'https://admin.daohaus.club/#/molochv3/0x5/0xb7c9ff471731237e0139e120361fbc2efc0068ee',
+    title: 'DAO',
+    link: 'https://admin.daohaus.club/#/molochv3/0xa4b1/0x61fcfe0bfadc00a7ae7b3523ae4602ae373e62b9',
     isExternal: true,
   },
-  { title: 'BOOTLEGGERS', link: 'https://bootleggers.wtf/', isExternal: true },
-  { title: 'DAOHAUS', link: 'https://daohaus.club/', isExternal: true },
 ];
