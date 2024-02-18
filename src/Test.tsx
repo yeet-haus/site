@@ -2,10 +2,9 @@ import './App.css';
 import Buttons from './components/Buttons';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import FAQHeader from './components/FAQHeader';
 import Section from './components/Section';
 import { useLocation } from 'react-router-dom';
-import { answers, sections } from './data';
+import { sections } from './data';
 
 function App() {
   const location = useLocation();
@@ -13,7 +12,6 @@ function App() {
   const homeContent = (
     <>
       <Header />
-      <Buttons />
       <div className="yeeter-container my-12">
         {sections.map(section => (
           <Section {...section} />
@@ -24,19 +22,18 @@ function App() {
     </>
   );
 
+  // Define content for the FAQ page
   const faqContent = (
     <>
-      <FAQHeader />
-      <div className="yeeter-container my-12">
-        {answers.map(section => (
-          <Section {...section} />
-        ))}
-      </div>
+      <Header />
+      {/* Add FAQ-specific content here */}
+      <div>FAQ</div>
       <Buttons />
       <Footer />
     </>
   );
 
+  // Determine which content to render based on the route
   const contentToRender =
     location.pathname === '/faq' ? faqContent : homeContent;
 

@@ -25,6 +25,37 @@ export const sections: SectionProps[] = [
   },
 ];
 
+export const answers: SectionProps[] = [
+  {
+    title: 'Why Unruggable?',
+    subtitles: [''],
+    contents: [
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi ipsum, finibus vel maximus ut, dignissim in arcu. Proin viverra purus lectus, eget aliquet leo commodo ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent bibendum, metus non fermentum vehicula, arcu ligula facilisis lorem, in hendrerit mauris tortor sollicitudin lectus.',
+    ],
+  },
+  {
+    title: 'What Settings?',
+    subtitles: [''],
+    contents: [
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi ipsum, finibus vel maximus ut, dignissim in arcu. Proin viverra purus lectus, eget aliquet leo commodo ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent bibendum, metus non fermentum vehicula, arcu ligula facilisis lorem, in hendrerit mauris tortor sollicitudin lectus.',
+    ],
+  },
+  {
+    title: 'How Much?',
+    subtitles: [''],
+    contents: [
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi ipsum, finibus vel maximus ut, dignissim in arcu. Proin viverra purus lectus, eget aliquet leo commodo ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent bibendum, metus non fermentum vehicula, arcu ligula facilisis lorem, in hendrerit mauris tortor sollicitudin lectus.',
+    ],
+  },
+  {
+    title: 'Which Networks?',
+    subtitles: [''],
+    contents: [
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi ipsum, finibus vel maximus ut, dignissim in arcu. Proin viverra purus lectus, eget aliquet leo commodo ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent bibendum, metus non fermentum vehicula, arcu ligula facilisis lorem, in hendrerit mauris tortor sollicitudin lectus.',
+    ],
+  },
+];
+
 export const links: Link[] = [
   { title: 'FAQ', link: '/faq', isExternal: false },
   { title: 'DOCS', link: 'http://docs.yeet.haus', isExternal: true },
