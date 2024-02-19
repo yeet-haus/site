@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { ScrollRestoration, useLocation } from "react-router-dom";
 import { SectionProps } from "../types/SectionProps";
 import Buttons from "./Buttons";
 import Footer from "./Footer";
@@ -23,6 +23,7 @@ function Layout({ data }: LayoutProps) {
 			</div>
 			<Buttons />
 			<Footer />
+			<ScrollRestoration />
 		</>
 	);
 }
