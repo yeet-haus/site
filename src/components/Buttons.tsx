@@ -2,13 +2,10 @@ function Buttons() {
   return (
     <div className="yeeter-container">
       <div className="button-container">
-        <a href="https://yeet-mvp.vercel.app/" className="yeeter-button">
+        <a href="https://app.yeet.haus/" className="yeeter-button">
           Explore
         </a>
-        <a
-          href="https://yeet-mvp.vercel.app/#/launch"
-          className="yeeter-button"
-        >
+        <a href="https://app.yeet.haus/#/launch" className="yeeter-button">
           Launch
         </a>
       </div>

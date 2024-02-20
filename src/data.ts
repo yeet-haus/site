@@ -62,7 +62,7 @@ export const links: Link[] = [
   { title: 'DISCORD', link: 'https://discord.gg/rE33sawCMz', isExternal: true },
   {
     title: 'DAO',
-    link: 'https://admin.daohaus.club/#/molochv3/0xa4b1/0x61fcfe0bfadc00a7ae7b3523ae4602ae373e62b9',
+    link: 'https://dao.yeet.haus/#/molochv3/0xa4b1/0x61fcfe0bfadc00a7ae7b3523ae4602ae373e62b9',
     isExternal: true,
   },
 ];
