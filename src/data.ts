@@ -30,28 +30,28 @@ export const answers: SectionProps[] = [
     title: 'Why Unruggable?',
     subtitles: [''],
     contents: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi ipsum, finibus vel maximus ut, dignissim in arcu. Proin viverra purus lectus, eget aliquet leo commodo ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent bibendum, metus non fermentum vehicula, arcu ligula facilisis lorem, in hendrerit mauris tortor sollicitudin lectus.',
+      'Every campaign is a step towards building a transparent, accountable, and scam-free crypto world. With Yeeter, launching your project means starting a new Moloch DAO—ensuring that every contributor becomes an integral part of your journey, without the fear of rug pulls.',
     ],
   },
   {
     title: 'What Settings?',
     subtitles: [''],
     contents: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi ipsum, finibus vel maximus ut, dignissim in arcu. Proin viverra purus lectus, eget aliquet leo commodo ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent bibendum, metus non fermentum vehicula, arcu ligula facilisis lorem, in hendrerit mauris tortor sollicitudin lectus.',
+      'To make transforming your idea into a project on Yeeter effortless we make some assumptions. Your DAO is configured with a voting period of 12 hours and grace period of 6 hours ensuring swift decision-making. The minimum retention is 66% and the sponsor threshold is 1 voting token providing accessibility to all contributors. These settings are customizable with proposals after the DAO is summoned.',
     ],
   },
   {
     title: 'How Much?',
     subtitles: [''],
     contents: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi ipsum, finibus vel maximus ut, dignissim in arcu. Proin viverra purus lectus, eget aliquet leo commodo ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent bibendum, metus non fermentum vehicula, arcu ligula facilisis lorem, in hendrerit mauris tortor sollicitudin lectus.',
+      "The Yeeter protocol fee is 3%. Yeeters receive the full amount of loot from their contribution. Fees in the network's native token are sent to the Yeeter safe. These funds are used to maintain and enhance the platfrom while suppoting the DAOhaus community.",
     ],
   },
   {
     title: 'Which Networks?',
     subtitles: [''],
     contents: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi ipsum, finibus vel maximus ut, dignissim in arcu. Proin viverra purus lectus, eget aliquet leo commodo ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent bibendum, metus non fermentum vehicula, arcu ligula facilisis lorem, in hendrerit mauris tortor sollicitudin lectus.',
+      "The Yeeter v2 MVP was enabled by an $ARB grant. We are impressed by the Arbitrum Foundation's support for the DAO community and hope this tool encourages the proliferation of DAOs on Arbitrum. Yeeter is also available on Optimism, Base, Gnosis Chain, and ready for testing on Sepolia.",
     ],
   },
 ];
