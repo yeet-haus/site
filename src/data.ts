@@ -58,7 +58,6 @@ export const answers: SectionProps[] = [
 
 export const links: Link[] = [
   { title: 'FAQ', link: '/faq', isExternal: false },
-  { title: 'DOCS', link: 'http://docs.yeet.haus', isExternal: true },
   { title: 'DISCORD', link: 'https://discord.gg/rE33sawCMz', isExternal: true },
   {
     title: 'DAO',
