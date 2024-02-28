@@ -5,55 +5,55 @@
 @tailwind utilities;
 
 @layer base {
-	html {
-		font-family: 'Poppins', system-ui, sans-serif;
-		color: #000000;
-		background-color: #655c31;
-		font-synthesis: none;
-		text-rendering: optimizeLegibility;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
+  html {
+    font-family: 'Poppins', system-ui, sans-serif;
+    color: #000000;
+    background-color: #655c31;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 }
 
 @layer utilities {
-	.yeeter-shadow {
-		text-shadow: -10px -10px rgba(254, 219, 29, 1), 10px 10px black;
-	}
-	.yeeter-shadow-sm {
-		text-shadow: -5px -5px rgba(254, 219, 29, 1), 5px 5px black;
-	}
-	.default-shadow {
-		text-shadow: 5px 5px black;
-	}
+  .yeeter-shadow {
+    text-shadow: -10px -10px rgba(254, 219, 29, 1), 10px 10px black;
+  }
+  .yeeter-shadow-sm {
+    text-shadow: -5px -5px rgba(254, 219, 29, 1), 5px 5px black;
+  }
+  .default-shadow {
+    text-shadow: 5px 5px black;
+  }
 }
 
 @layer components {
-	.yeeter-container {
-		@apply w-full h-auto flex flex-col items-center justify-center gap-12;
-	}
-	.yeeter-title {
-		@apply text-pink-300 text-center text-6xl lg:text-[200px] leading-normal no-underline m-0 font-black tracking-[4px] uppercase yeeter-shadow;
-	}
-	.yeeter-subtitle {
-		@apply text-pink-300 text-center text-3xl lg:text-8xl leading-normal no-underline m-0 font-black tracking-[4px] uppercase yeeter-shadow-sm lg:yeeter-shadow;
-	}
-	.yeeter-description {
-		@apply text-yeeter-yellow text-center text-xl lg:text-5xl font-black uppercase no-underline leading-normal default-shadow -mt-16;
-	}
-	.yeeter-button {
-		@apply gap-2.5 p-10 w-fit shadow-[10px_10px_0px_0px_black] transition duration-300 rounded-full bg-yeeter-yellow hover:bg-yeeter-hover-yellow active:bg-yeeter-active-yellow text-black text-xl lg:text-5xl font-black text-center uppercase no-underline leading-none;
-	}
-	.button-container {
-		@apply flex flex-col lg:flex-row gap-8 my-16;
-	}
-	.yeeter-section {
-		@apply flex flex-col items-start gap-10 p-12 shadow-[-10px_-10px_rgba(254,219,29,1),10px_10px_black] rounded-[100px] bg-yeeter-light-yellow;
-	}
-	.section-title {
-		@apply text-yeeter-pink text-center text-3xl lg:text-[64px] self-stretch no-underline leading-none m-0 font-black uppercase yeeter-shadow-sm tracking-wider;
-	}
-	.yeeter-link {
-		@apply text-yeeter-pink text-center text-3xl lg:text-[96px] self-stretch font-black no-underline leading-none transition duration-300 yeeter-shadow-sm hover:text-yeeter-hover-pink active:text-yeeter-active-pink tracking-wide;
-	}
+  .yeeter-container {
+    @apply w-full h-auto flex flex-col items-center justify-center gap-4 lg:gap-12;
+  }
+  .yeeter-title {
+    @apply text-pink-300 text-center text-8xl lg:text-[200px] leading-normal no-underline m-0 font-black tracking-[4px] uppercase yeeter-shadow;
+  }
+  .yeeter-subtitle {
+    @apply text-yeeter-yellow text-center text-xl lg:text-5xl font-black uppercase no-underline leading-normal default-shadow -mt-8 lg:-mt-16;
+  }
+  .yeeter-description {
+    @apply text-pink-300 text-center text-3xl lg:text-8xl leading-tight no-underline m-0 font-black tracking-[4px] uppercase yeeter-shadow-sm lg:yeeter-shadow;
+  }
+  .yeeter-button {
+    @apply gap-2.5 p-10 w-fit shadow-[10px_10px_0px_0px_black] transition duration-300 rounded-full bg-yeeter-yellow hover:bg-yeeter-hover-yellow active:bg-yeeter-active-yellow text-black text-xl lg:text-5xl font-black text-center uppercase no-underline leading-none;
+  }
+  .button-container {
+    @apply flex flex-col lg:flex-row pb-8 lg:pb-0 gap-8 mt-4 lg:my-16;
+  }
+  .yeeter-section {
+    @apply flex flex-col items-start lg:max-w-5xl gap-10 p-8 lg:p-12 pb-16 shadow-[-10px_-10px_rgba(254,219,29,1),10px_10px_black] rounded-[100px] bg-yeeter-light-yellow;
+  }
+  .section-title {
+    @apply text-yeeter-pink text-center text-3xl px-12 lg:text-[64px] self-stretch no-underline leading-none m-0 font-black uppercase yeeter-shadow-sm tracking-wider;
+  }
+  .yeeter-link {
+    @apply text-yeeter-pink text-center text-3xl lg:text-[96px] self-stretch font-black no-underline leading-none transition duration-300 yeeter-shadow-sm hover:text-yeeter-hover-pink active:text-yeeter-active-pink tracking-wide;
+  }
 }

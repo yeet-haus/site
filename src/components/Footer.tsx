@@ -3,7 +3,7 @@ import { links } from '../data';
 
 function Footer() {
   return (
-    <footer className="yeeter-section gap-5 w-full mt-16">
+    <footer className="yeeter-section py-8 gap-2 w-full mt-4 lg:mt-16">
       {links.map(({ title, link, isExternal }, index) =>
         isExternal ? (
           <a
@@ -16,11 +16,7 @@ function Footer() {
             {title}
           </a>
         ) : (
-          <Link
-            key={index}
-            to={link}
-            className="yeeter-link"
-          >
+          <Link key={index} to={link} className="yeeter-link">
             {title}
           </Link>
         )

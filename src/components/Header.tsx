@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
   const location = useLocation();
@@ -11,12 +11,12 @@ function Header() {
       </Link>
       {isFAQRoute ? (
         <>
-          <p className="yeeter-description">Frequently Asked Questions</p>
+          <p className="yeeter-subtitle">Frequently Asked Questions</p>
         </>
       ) : (
         <>
-          <p className="yeeter-description">Unruggable Crowdfunding</p>
-          <p className="yeeter-subtitle">
+          <p className="yeeter-subtitle">Unruggable Crowdfunding</p>
+          <p className="yeeter-description">
             Empower Your Project With Trust and Transparency
           </p>
         </>
