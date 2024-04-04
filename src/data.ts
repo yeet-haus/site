@@ -6,21 +6,21 @@ export const sections: SectionProps[] = [
     title: 'Launch Project',
     subtitles: [''],
     contents: [
-      "Transform how your project raises funds with unprecedented ease and efficiency. Launching your project with Yeeter is as simple as it gets. Provide your project's name, team members, campaign duration, fundraising goal, and the minimum contribution, and you're gtg.",
+      "Launching your project with Yeeter is simple. Provide your project's name, team members, campaign duration, fundraising goal, minimum contribution, and you're gtg.",
     ],
   },
   {
     title: 'Fund Treasury',
     subtitles: [''],
     contents: [
-      "Your project's treasury is safeguarded by the battle-tested Moloch DAO v3 contracts, ensuring unparalleled security and transparency. Contributors yeet funds into your project, receiving loot shares and the option to ragequit if the project doesn't follow through, protecting everyone involved.",
+      'Funding your treasury with Yeeter is fast. Contributors yeet funds into your project, scoring loot and leveling up your capital formation game.',
     ],
   },
   {
-    title: 'Grow Community',
+    title: 'Protect Community',
     subtitles: [''],
     contents: [
-      "With Yeeter, you're not just raising funds; you're cultivating a community of individuals passionate about your project's success. Initiating a Yeeter campaign summons a new DAO governed by your team and supported by your contributors. We make it easy for project teams to connect with their supporters, track progress, and fulfill commitments. Join our Discord to build a future where purpose-driven initiatives thrive.",
+      'Protecting your community with Yeeter is easy. Launching a project deploys a DAO governed by your team. Members retain exit rights to ragequit if you do not follow through.',
     ],
   },
 ];
