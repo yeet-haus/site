@@ -17,7 +17,7 @@ function Header() {
         <>
           <p className="yeeter-subtitle">Unruggable Crowdfunding</p>
           <p className="yeeter-description">
-            Empower Your Project With Trust and Transparency
+            Raise With Trust and Transparency
           </p>
         </>
       )}
